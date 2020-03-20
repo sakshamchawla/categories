@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sakshamchawla.com.categories.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/MNImport"
+        android:title="Import"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/MNExport"
+        android:title="Export"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/MNShowMarked"
+        android:title="Show Marked"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/MNSettings"
+        android:title="Settings"
+        app:showAsAction="never" />
+</menu>

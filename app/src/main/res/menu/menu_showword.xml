@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/MNTTSWord"
+        android:icon="@drawable/ic_ttsword"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/MNPlay"
+        android:icon="@drawable/ic_ttsplay"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/MNStar"
+        android:icon="@android:drawable/star_off"
+        android:title="Mark"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/MNEditWord"
+        android:title="Edit Word" />
+    <item
+        android:id="@+id/MNDeleteWord"
+        android:title="Delete Word" />
+</menu>
